@@ -1,0 +1,55 @@
+{
+  "name": "delta-ui-re",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@alifd/next": "^1.15.5",
+    "cookie-parser": "latest",
+    "cors": "latest",
+    "express": "latest",
+    "jade": "latest",
+    "moment": "^2.24.0",
+    "morgan": "latest",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "pug": "latest",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-intl": "^2.8.0",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^5.0.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "3.0.1",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.7",
+    "redux-thunk": "^2.3.0",
+    "why-did-you-update": "^1.0.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  }
+}

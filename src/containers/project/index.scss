@@ -1,0 +1,432 @@
+.main-content {
+
+	.projects-header {
+		text-align: left;
+		line-height: 20px;
+		font-family: 'Montserrat', Regular;
+		font-size: 14px;
+		color: #999999;
+		line-height: 20px;
+		width: 100%;
+        height: 20px;
+	}
+
+	div.next-tabs-tab-inner {
+		padding-right: 40px;
+		font-family: 'Montserrat', Semibold;
+	}
+
+	div.next-tabs-tab-inner:after {
+		padding-right: 40px;
+	}
+
+	li.next-tabs-tab.active .next-tabs-tab-inner {
+		text-align: left;
+		line-height: 29px;
+		font-family: 'Montserrat', Semibold;
+		font-size: 24px;
+		color: #555555;
+		letter-spacing: 0.86px;
+        z-index: 1;
+	}
+
+	li.next-tabs-tab .next-tabs-tab-inner {
+		text-align: left;
+		line-height: 29px;
+		font-family: 'Montserrat', Semibold;
+		font-size: 24px;
+		color: #CCCCCC;
+		letter-spacing: 0.86px;
+	}
+	.show-all {
+		text-align: left;
+		line-height: 19px;
+		font-family: 'Montserrat', Semibold;
+		font-size: 16px;
+		color: #1D825B;
+		letter-spacing: 0.57px;
+		height: 19px;
+		cursor: default;
+		margin-top: 10px;
+	}
+        
+    .projects-empty-page {
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        line-height: 20px;
+        font-family: 'Montserrat', Regular;
+        font-size: 14px;
+        color: #3F3F3F;
+        text-align: center;
+        line-height: 20px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
+	.project-item-container {
+
+		background: #FFFFFF;
+		box-shadow: 0 1px 0 0 #CED7D3;
+		height: 70px;
+		list-style-type: none; 
+		margin: 10px 0 5px 0;
+		display: grid;
+		grid-template-columns: 30px auto;
+		grid-template-rows: 40% 60%;
+		grid-row-gap: 0px;
+
+		.project-item-icon {
+			width: 20px;
+            height: 20px;
+        }
+
+		.project-item-name {
+			text-align: left;
+			line-height: 19px;
+			font-family: 'Montserrat', Medium;
+			font-size: 16px;
+			color: #555555;
+			letter-spacing: 0.57px;
+			width: 100%;
+			height: 19px;
+			grid-column-start: 2;
+			grid-row-start: 1;
+			grid-row-end: 1;
+
+			a {
+				text-decoration: none;
+				color: #555555;
+			}
+		}
+
+		.project-item-num {
+			text-align: left;
+			line-height: 14px;
+			font-family: 'Montserrat', Regular;
+			font-size: 12px;
+			color: #999999;
+			width: 100%;
+			height: 14px;
+			grid-column-start: 2;
+			grid-row-start: 2;
+			grid-row-end: 2;
+		}
+
+	}
+
+	.project-create-container {
+		.project-create-header {
+			h1 {
+				text-align: left;
+				line-height: 29px;
+				font-family: 'Montserrat', Semibold;
+				font-size: 24px;
+				color: #555555;
+				letter-spacing: 0.86px;
+				width: 100%;
+				height: 29px;
+			}
+
+			p {
+				text-align: left;
+				line-height: 20px;
+				font-family: 'Montserrat', Regular;
+				font-size: 14px;
+				color: #999999;
+				line-height: 20px;
+				width: 100%;
+				height: 40px;
+			}
+		}
+		.project-create-nav-container {
+			width: 500px;
+
+			.project-create-nav-step0, .project-create-nav-step1 {
+				display: inline-flex;
+				justify-content: left;
+				align-items: center; 
+				width: 40%;
+			}
+			.project-create-nav-step0-circle, .project-create-nav-step1-circle {
+				background: #B4B7BA;
+				width: 30px;
+				height: 30px;
+				border-radius: 50%;
+				display: inline-flex;
+				justify-content: center;
+				align-items: center; 
+
+				text-align: left;
+				line-height: 20px;
+				font-family: PingFangSC-Medium;
+				font-size: 14px;
+				color: #FFFFFF;
+				letter-spacing: 0.5px;
+				cursor: default;
+			}
+			.project-create-nav-step1-circle {
+				margin-left: 5px;
+			}
+			.project-create-nav-step0-text, .project-create-nav-step1-text {
+				display: inline-flex;
+				padding-left: 5px;
+
+				text-align: left;
+				line-height: 16px;
+				font-family: 'Montserrat', Semibold;
+				font-size: 14px;
+				color: #555555;
+				height: 16px;
+				cursor: default;
+			}
+		}
+		.project-create-form-container {
+			width: 360px;
+			margin-top: 10px;
+			.form-step-0 {
+				input[type=text] {
+					width: 100%;
+					height: 40px;
+					padding: 12px 20px;
+					margin: 8px 0;
+					display: inline-block;
+					border: 1px solid #ccc;
+					border-radius: 4px;
+					box-sizing: border-box;
+					font-size: 16px;
+				}
+				label {
+					text-align: left;
+					line-height: 16px;
+					font-family: 'Montserrat', Regular;
+					font-size: 14px;
+					color: #B4B7BA;
+					width: 95px;
+					height: 16px;
+				}
+			}
+			.form-step-1 {
+				div h1 {
+					text-align: left;
+					line-height: 16px;
+					font-family: 'Montserrat', Bold;
+					font-size: 14px;
+					color: #25292E;
+					width: 119px;
+					height: 16px;
+				}
+				.next-switch-on, .next-switch-on:focus, .next-switch-on:hover {
+					background-color: #4CD964;
+				}
+				.switch-item-container {
+					background: rgba(255,255,255,0.00);
+					box-shadow: 0 1px 0 0 rgba(235,235,235,0.50);
+					width: 800px;
+					height: 60px;
+					display: flex;
+					justify-content: center;
+					align-items: center; 
+
+					.switch-item-container-inner {
+						display: inline-block;
+						// height: 30px;	
+						width: 100%;			
+						label {
+							text-align: left;
+							line-height: 16px;
+							font-family: 'Montserrat', Regular;
+							font-size: 14px;
+							color: #555555;
+							letter-spacing: 0.5px;
+							width: 100px;
+							height: 16px;
+							margin-top: 20px;
+						}
+					}
+					.next-switch {
+						float: right;
+					}
+				}
+			}
+		}
+	}
+
+    .projects-tab-container {
+    
+        li.proj-item {
+    
+            background: #FFFFFF;
+            box-shadow: 0 1px 0 0 #EBEBEB;
+            width: 100%;
+            height: 65px;
+            list-style-type: none; 
+            margin: 15px 0 10px 0;
+    
+            .proj-item-title {
+
+                display: flex;
+				align-items: center;
+
+                .proj-item-title-name {
+					height: 26px;
+					width: 100%;
+                    display: flex;
+        
+                    a {
+						font-family: 'Montserrat', regular;
+						// margin-top: 2px;
+						font-size: 15px;
+                    }
+        
+                    .next-progress-circle.next-small {
+                        height: 10px;
+                        width: 10px;
+                        margin-right: 8px;
+                    }
+        
+                    .next-progress-circle-container {
+                        height: 20px;
+                        width: 20px;
+                    }
+                }
+                .proj-item-title-rating {
+                    margin-left: auto;
+                }
+
+                .proj-item-title-remove {
+                    height: 10px;
+                    width: 10px;
+                }
+            }
+    
+            .proj-item-desc {
+                p {
+                    text-align: left;
+                    line-height: 14px;
+                    font-family: 'Montserrat', Regular;
+                    font-size: 12px;
+                    color: #999999;
+                    height: 14px;
+                }
+            }
+    
+            a {
+                text-decoration: none;
+                color: #555555;
+            }
+    
+            a:visited {
+                color: #555555;
+            }
+        }
+    
+        .show-all {
+            text-align: left;
+            line-height: 15px;
+            font-family: 'Montserrat', Medium;
+            font-size: 13px;
+            color: #1D825B;
+            letter-spacing: 0.46px;
+            width: 92px;
+            height: 15px;
+            border: none;
+            background: none;
+            cursor: default;
+        }
+    }
+        
+    .next-rating-grade-high
+    .next-rating-overlay
+    .next-icon {
+        color: #F8DD7E;
+    }
+
+    /*rule for proj_id links*/
+    .detail-project-container {
+        width: 100%;
+        .detail-project-header {
+            h1 {
+                text-align: left;
+                line-height: 29px;
+                font-family: 'Montserrat', Semibold;
+                font-size: 24px;
+                color: #555555;
+                letter-spacing: 0.86px;
+                width: 225px;
+                height: 29px;
+            }
+            div {
+                text-align: left;
+                line-height: 16px;
+                font-family: 'Montserrat', Regular;
+                font-size: 14px;
+                color: #999999;
+                letter-spacing: 0.5px;
+                width: 136px;
+                height: 16px;
+            }
+        }
+        .detail-project-files-list {
+            width: 100%;
+            margin-top: 30px;
+            .detail-project-files-list-item {
+                display: flex;
+                height: 60px;
+                width: 100%;
+                .detail-project-files-list-item-wrap {
+                    display: flex;
+                    height: 60px;
+                    width: 100%;
+                    align-items: center;
+                    justify-content: center;
+                    .detail-project-files-list-item-checkbox {
+                        width: 20px;
+                    }
+                    .detail-project-files-list-item-picture {
+                        width: 35px;
+                    }
+                    .detail-project-files-list-item-desc {
+                        width: 50%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        margin-left: 10px;
+                        div {
+                            align-self: stretch;
+                        }
+                        .detail-project-files-list-item-desc-filename {
+                            text-align: left;
+                            line-height: 19px;
+                            font-family: 'Montserrat', Semibold;
+                            font-size: 16px;
+                            color: #555555;
+                            height: 19px;
+                        }
+                        .detail-project-files-list-item-desc-uploader {
+                            text-align: left;
+                            line-height: 14px;
+                            font-family: 'Montserrat', Regular;
+                            font-size: 12px;
+                            color: #3F3F3F;
+                            line-height: 14px;
+                            height: 14px;
+                        }
+                    }
+                    .detail-project-files-list-item-stat {
+                        width: 50%;
+                        text-align: right;
+                        line-height: 16px;
+                        font-family: 'Montserrat', Medium;
+                        font-size: 14px;
+                        color: #999999;
+                        text-align: right;
+                        height: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+}

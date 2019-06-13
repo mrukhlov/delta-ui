@@ -1,0 +1,37 @@
+.component-menu-wrapper {
+    margin-top: 18px;
+    .portal {
+        padding: 0 0 30px 30px;
+        a {
+            display: block;
+            height: 30px;
+            color: #555555;
+            // font-size: 14px;
+            line-height: 30px;
+            text-decoration: none;
+        }
+        a:hover,
+        a.active {
+            color: #1d825b;
+        }
+    }
+    .menu {
+        padding: 0 30px;
+        list-style: none;
+        a {
+            display: block;
+            height: 30px;
+            color: #555555;
+            font-size: 14px;
+            line-height: 30px;
+            text-decoration: none;
+        }
+        a:hover,
+        a.active {
+            color: #1d825b;
+        }
+        .menu-icon {
+            margin-right: 10px;
+        }
+    }
+}

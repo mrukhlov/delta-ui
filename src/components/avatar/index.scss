@@ -1,0 +1,13 @@
+.avatar-wrap {
+    width: 24px;
+    height: 68px;
+    margin-right: 22px;
+    display: flex;
+    .avatar {
+        width: 24px;
+        height: 24px;
+        margin: auto;
+        display: block;
+        border-radius: 50%;
+    }
+}

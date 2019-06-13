@@ -1,0 +1,30 @@
+.header {
+    height: 68px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Montserrat', regular;
+    width: 100%;
+    .search {
+        width: 320px;
+        margin-right: 50px;
+        border-radius: 20px;
+        .next-icon-search {
+            padding-left: 8px;
+        }
+        .next-icon-search:before {
+            color: #999999;
+        }
+    }
+    .select-language {
+        display: flex;
+        align-items: center;
+        margin-right: 26px;
+    }
+    .notify {
+        margin-right: 26px;
+    }
+    .notify:before {
+        color: #999999;
+    }
+}

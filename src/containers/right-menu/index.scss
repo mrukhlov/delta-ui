@@ -1,0 +1,23 @@
+.context-button {
+    width: 200px;
+    order: 1;
+
+    .context-button-text {
+        height: 50px;
+        background: #FFFFFF;
+        border: 1px solid #B9DACD;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        line-height: 18px;
+        font-family: 'Montserrat', Semibold;
+        font-size: 15px;
+        color: #1D825B;
+        cursor: default;
+
+        .context-button-text-plus-sign {
+            font-size: 30px;
+        }
+    }
+}
