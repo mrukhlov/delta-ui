@@ -10,7 +10,7 @@
     "jade": "latest",
     "moment": "^2.24.0",
     "morgan": "latest",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "prop-types": "^15.7.2",
     "pug": "latest",
     "react": "^16.8.6",
